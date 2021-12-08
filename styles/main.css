@@ -39,7 +39,7 @@ header {
   padding-top: 180px;
   padding-bottom: 165px;
   width: 100%;
-  background-image: url(/frontend/images/hero-bg.jpg);
+  background-image: url(images/hero-bg.jpg);
   background-size: cover;
   margin-top: -70px;
 }
