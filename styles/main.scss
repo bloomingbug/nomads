@@ -288,3 +288,139 @@ header {
         text-decoration: underline;
     }
 }
+
+
+// DETAILS PAGE
+// Main Content
+.section-details-heading {
+    min-height: 310px;
+    background-color: #E4E6EB;
+    margin-top: -70px;
+}
+
+.section-details-content {
+    margin-top: -210px;
+    min-height: 100vh;
+
+    .breadcrumb {
+        margin-bottom: 40px;
+        padding: 0;
+
+        li.breadcrumb-item {
+            color: $secondary-color;
+            font-size: 20px;
+
+            &::before {
+                margin: 0 1em;
+            }
+
+            &.active {
+                font-weight: bold;
+                color: $secondary-color;
+            }
+        }
+    }
+
+
+    .card {
+        border-radius: 11px;
+        padding: 30px;
+
+        h1 {
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        p {
+            color: $etc-color;
+            font-size: 18px;
+            font-weight: lighter;
+        }
+
+        .gambar-kecil {
+            margin-top: 15px;
+
+            img.xactive {
+                border: 4px solid #1ABC9C;
+            }
+        }
+
+        .features {
+            margin-top: 30px;
+
+            .description {
+                margin-left: 14px;
+                // float: right;
+                // overflow: hidden;
+
+
+                h3 {
+                    font-size: 18px;
+                    margin-bottom: 0;
+
+                }
+
+                p {
+                    font-size: 18px;
+                    color: #6e6e6e;
+                    margin: 0;
+                }
+            }
+
+        }
+    }
+
+    .card.card-details.card-right {
+        h2 {
+            font-size: 20px;
+            margin-bottom: 14px;
+            font-weight: 600;
+        }
+
+        .member-image {
+            width: 40px;
+            height: 40px;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        table.trip-information {
+            margin-bottom: 20px;
+
+            th {
+                font-size: 18px;
+                font-weight: lighter;
+            }
+
+            td {
+                font-size: 18px;
+                font-weight: lighter;
+                color: #6e6e6e;
+            }
+        }
+    }
+
+    .join-container {
+        .btn-block {
+            display: block;
+            width: 100%;
+            margin-top: -15px;
+            z-index: 1;
+        }
+
+        .btn-join-now {
+            background-color: $primary-color;
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+            border-radius: 0;
+
+            &:hover {
+                background-color: #ffb074;
+            }
+        }
+    }
+
+}

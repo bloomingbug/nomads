@@ -245,4 +245,126 @@ header .btn-get-started:hover {
 .section-footer a:hover {
   text-decoration: underline;
 }
+
+.section-details-heading {
+  min-height: 310px;
+  background-color: #E4E6EB;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.section-details-content .breadcrumb li.breadcrumb-item {
+  color: #071C4D;
+  font-size: 20px;
+}
+
+.section-details-content .breadcrumb li.breadcrumb-item::before {
+  margin: 0 1em;
+}
+
+.section-details-content .breadcrumb li.breadcrumb-item.active {
+  font-weight: bold;
+  color: #071C4D;
+}
+
+.section-details-content .card {
+  border-radius: 11px;
+  padding: 30px;
+}
+
+.section-details-content .card h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.section-details-content .card p {
+  color: #6E6E6E;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.section-details-content .card .gambar-kecil {
+  margin-top: 15px;
+}
+
+.section-details-content .card .gambar-kecil img.xactive {
+  border: 4px solid #1ABC9C;
+}
+
+.section-details-content .card .features {
+  margin-top: 30px;
+}
+
+.section-details-content .card .features .description {
+  margin-left: 14px;
+}
+
+.section-details-content .card .features .description h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.section-details-content .card .features .description p {
+  font-size: 18px;
+  color: #6e6e6e;
+  margin: 0;
+}
+
+.section-details-content .card.card-details.card-right h2 {
+  font-size: 20px;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
+.section-details-content .card.card-details.card-right .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-content .card.card-details.card-right hr {
+  margin: 20px 0;
+}
+
+.section-details-content .card.card-details.card-right table.trip-information {
+  margin-bottom: 20px;
+}
+
+.section-details-content .card.card-details.card-right table.trip-information th {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.section-details-content .card.card-details.card-right table.trip-information td {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #6e6e6e;
+}
+
+.section-details-content .join-container .btn-block {
+  display: block;
+  width: 100%;
+  margin-top: -15px;
+  z-index: 1;
+}
+
+.section-details-content .join-container .btn-join-now {
+  background-color: #FF9E53;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 0;
+}
+
+.section-details-content .join-container .btn-join-now:hover {
+  background-color: #ffb074;
+}
 /*# sourceMappingURL=main.css.map */
