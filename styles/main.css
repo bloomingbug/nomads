@@ -319,6 +319,11 @@ header .btn-get-started:hover {
   margin: 0;
 }
 
+.section-details-content .card.card-details.card-right {
+  border-bottom: 0;
+  border-radius: 11px 11px 0 0;
+}
+
 .section-details-content .card.card-details.card-right h2 {
   font-size: 20px;
   margin-bottom: 14px;
@@ -349,11 +354,13 @@ header .btn-get-started:hover {
   color: #6e6e6e;
 }
 
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
 .section-details-content .join-container .btn-block {
   display: block;
   width: 100%;
-  margin-top: -15px;
-  z-index: 1;
 }
 
 .section-details-content .join-container .btn-join-now {
